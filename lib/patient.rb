@@ -23,8 +23,8 @@ def new_appointment(doctor, date)
 end
 
 def doctors
- self.appointments.collect do |name|
-   name.appointments
+ @appointments.collect do |appointment|
+   appointment.doctor
  end
  end
 
