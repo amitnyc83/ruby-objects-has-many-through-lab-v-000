@@ -16,11 +16,11 @@ def add_appointment(appointment)
 end
 
 
-# def new_appointment(doctor, date)
-#   appointment = Appointment.new(self, doctor, date)
-#   @appointments << appointment
-#   appointment
-# end
+def new_appointment(doctor, date)
+  appointment = Appointment.new(self, doctor, date)
+  @appointments << appointment
+  appointment
+end
 
 def doctors
  self.appointments.collect do |name|
