@@ -24,7 +24,7 @@ end
 
 def doctors
  @appointments.collect do |appointment|
-   appointment.doctors
+   appointment.doctor
  end
  end
 
